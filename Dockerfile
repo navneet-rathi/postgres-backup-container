@@ -1,4 +1,4 @@
-FROM alpine:3.6
+docker.io/bitnami/postgresql:11.5.0-debian-9-r60
 
 ENV PGHOST='localhost'
 ENV PGPORT='5432'
